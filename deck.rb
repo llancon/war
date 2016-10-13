@@ -23,11 +23,12 @@ class Deck
     suits.each do |s|
       face.each do |f|
         cards << Card.new(s,f)
+        cards.shuffle
       end
     end
   end
 end
 
 
-deck = Deck.new
-puts deck.shuffle
+# deck = Deck.new
+# puts deck.inspect

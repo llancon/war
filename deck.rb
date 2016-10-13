@@ -28,9 +28,6 @@ class Deck
   end
 end
 
-# suits = Deck.new.suits
-# face = Deck.new.face
-# puts suits
-# puts face
+
 deck = Deck.new
 puts deck.shuffle

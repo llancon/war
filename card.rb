@@ -5,15 +5,16 @@ class Card
       self.face =face
     end
   def determine_card_value
-    if face == "j"
+    if face == "J"
       card_value = 11
-    elsif face == "q"
+    elsif face == "Q"
       card_value = 12
-    elsif face == "k"
+    elsif face == "K"
       card_value = 13
-    elsif face == "a"
+    elsif face == "A"
       card_value = 14
     else
       card_value = face.to_i
+    end
   end
 end
